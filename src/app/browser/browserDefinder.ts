@@ -60,4 +60,13 @@ export class BrowserDefinder {
         return this.currentBrowser === this.InternetExplorer; 
     }
 
+
+    public isCurrentBrowserChrome(): boolean{
+        return this.currentBrowser === this.Chrome; 
+    }
+
+
+    public isCurrentBrowserFirefox(): boolean{
+        return this.currentBrowser === this.Firefox; 
+    }
 }
